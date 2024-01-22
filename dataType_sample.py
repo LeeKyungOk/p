@@ -18,5 +18,23 @@ f = d - e
 print(f)
 
 
+# 딕셔너리
+C = {"a":1, "b":2}
+print(C['b'])
+
+
+import datetime as dt
+
+a = dt.datetime(2019,10,31)
+print("===================")
+print(a)
+
+import pandas as pandas
+
+from pandas import Series, DataFrame
+
+a = dt.datetime.now()
+print (a)
+
 
 
